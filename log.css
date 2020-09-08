@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+    margin: 35;
+    background-size: cover;
+    background-attachment: fixed;
+    background: linear-gradient(to right, #ffffff67, #2995ddb4,rgba(0, 197, 241, 0.192));
+
+}
+
+* {
+    box-sizing:  border-box;
+}
+.contenedor{
+    width: 100%;
+    padding:15px;
+}
+
+
+
+.formulario{
+
+    background: #fff;
+    margin-top: 10px;
+    padding: 3px;
+    position: absolute;
+    border: 3px solid #1B7786;
+}
+
+h1{
+
+    text-align: center;
+    color: #1a2537;
+    font-size: 35px;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+  
+
+
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #000;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #1B7786;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #26BDC2;
+    padding: 10px 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    background: cadetblue;
+}
+
+p{
+    text-align: center;
+    font: 100% sans-serif;
+
+}
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: 40px;
+        width: 500px;
+        margin-top: 4px;
+        border-radius: 9%;
+        position: absolute;
+
+    }
+}
